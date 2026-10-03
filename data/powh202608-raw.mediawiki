@@ -9,7 +9,7 @@
 {| class="wikitable" style="font-size:85%; text-align:center"
 |+ '''2026年8月 PoWh 原始数据溯源表（raw）'''　——　本表为原始数据溯源表；同月数据汇总见 [[https://github.com/Jouleverse/workspace/blob/main/data/powh-data-202608.mediawiki|powh-data-202608.mediawiki]]
 |-
-| colspan="32" style="text-align:left; background:#f2f2f2" | ''【表头第二行·计件标准说明】'''计件标准'''即 rev9 每个 WP 表格的中间列（三列为：工作项、计件标准、取数来源）——把 JV 规定的单位工作量（1 次 / 1 个 / 1 篇…）折算成小时数的标准；'''工时（wh）= 工作量（X 次 / X 个 / X 篇…）× 计件标准'''。例：多签 0.5h/月/钱包/每位当月在册签名人；记账节点 5h/月/独立IP节点；会议主持 2h/次。工作量单位（件 / 次 / 个 / 篇）写在列名里；标「非标上报/wh」的列不适用计件标准，直接填上报小时数（计件标准 = 1）。''
+| colspan="32" style="text-align:left; background:#f2f2f2" | ''【表头第二行（斜体字）·计件标准说明】'''计件标准'''即 rev9 每个 WP 表格的中间列（三列为：工作项、计件标准、取数来源）——把 JV 规定的单位工作量（1 次 / 1 个 / 1 篇…）折算成小时数的标准；'''工时（wh）= 工作量（X 次 / X 个 / X 篇…）× 计件标准'''。例：多签 0.5h/月/钱包/每位当月在册签名人；记账节点 5h/月/独立IP节点；会议主持 2h/次。工作量单位（件 / 次 / 个 / 篇）写在列名里；标「非标上报/wh」的列不适用计件标准，直接填上报小时数（计件标准 = 1）。''
 |-
 ! rowspan="3" | Core ID
 ! rowspan="3" | [[https://github.com/Jouleverse/workspace/blob/main/core-contributors.md|CORE<br/>基本信息]]
@@ -173,7 +173,7 @@
 * 即本月在册签名人 = J-0 / J-9 / J-18 / J-25 / J-29，各 3 个钱包 × 0.5h = '''1.5h/人'''（5 人合计 7.5h）。
 * 快照文件 `data/sig-snapshot-202608.json` 尚未存档（rev9的数据源脚本化清单，第一条，快照脚本正在开发中）；本表先以上述链上实测结果作为依据。 
 
-=== 4. 本月无统计的 WP（不建列） ===
+=== 4. 本月未产生贡献数据的 WP不建列（rev9，统计员SOP，统计表列规则：当月有统计的WP才建列） ===
 * WP-4 社群建设、WP-5 JNSDAO、WP-9 飞翔的J纪念徽章、WP-10 JTI认证相关开发、WP-11 nostr相关开发、WP-12 合规投融资与生态基金、WP-14 Relay开发、WP-16 链上红包开发 —— 2026 年 8 月工作量均为 0。
 
 === 5. 数据源清单（逐列） ===
